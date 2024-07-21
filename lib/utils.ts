@@ -1,7 +1,17 @@
+import { mkdirSync } from "fs";
+import { freemem } from "os";
+
+export function makeDirf(dirPath: string): void {
+  mkdirSync(dirPath, { recursive: true });
+}
+
 export async function batchProcess(
   promises: (() => Promise<any>)[],
-  batchSize: number
+  memoryPerProcess: number
 ): Promise<any[]> {
+  const freememInMB: number = Math.floor(freemem() / 1024 / 1024);
+  const batchSize: number = Math.floor(freememInMB / memoryPerProcess);
+
   const promiseBatches: (() => Promise<any>)[][] = [];
 
   for (let i: number = 0; i < promises.length; i += batchSize) {

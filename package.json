@@ -1,5 +1,5 @@
 {
-	"name": "div-js",
+	"name": "@iamspdarsan/div-js",
 	"displayName": "Div.js",
 	"version": "0.0.1",
 	"description": "Div.js is a tool designed to enhance web performance by splitting CSS into multiple files tailored for different devices. By delivering device-specific CSS files, Div.js minimizes network overhead, reduces network costs, and achieves faster load times.",
@@ -31,11 +31,11 @@
 	"license": "Apache-2.0",
 	"private": false,
 	"scripts": {
-		"dev": "cls && rimraf dist && tsc -p tscdev.json && ncp ./div.config.json ./dist/div.config.json",
+		"dev": "cls && rimraf dist && tsc -p tscdev.json && ncp ./div.c.json ./dist/div.c.json",
 		"dr": "yarn dev && yarn rp",
 		"rp": "node ./dist/div.js",
 		"test": "jest",
-		"build": "cls && rimraf dist && tsc -p tsconfig.json && ncp ./div.config.json ./dist/div.config.json",
+		"build": "cls && rimraf dist && tsc -p tsconfig.json && ncp ./div.c.json ./dist/div.c.json",
 		"clean": "cls && rimraf dist",
 		"deploy": "yarn test && yarn build && yarn publish --access public && git push"
 	},
