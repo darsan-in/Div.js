@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test</title>
+    <link rel="stylesheet" href="css/test.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <style>
+      img {
+        height: auto;
+      }
+      #wrapper > .dp {
+        width: 1000px;
+      }
+      #dummy > .dp {
+        width: 1000px;
+      }
+      #wrapper#eye {
+        width: 1200px;
+      }
+
+      #batman {
+        width: 800px;
+      }
+
+      @media (max-width: 600px) {
+        img {
+          width: 60px !important;
+        }
+      }
+      @media (min-width: 601px) and (max-width: 1200px) {
+        img {
+          width: 6020px !important;
+        }
+      }
+
+      @media (min-width: 1201px) and (max-width: 2000px) {
+        img {
+          width: 8800px !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div id="wrapper"></div>
+    </main>
+  </body>
+</html>

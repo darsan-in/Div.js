@@ -1,0 +1,78 @@
+/* Rule */
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Keyframes */
+@keyframes example {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Font Face */
+@font-face {
+  font-family: "CustomFont";
+  src: url("customfont.woff2") format("woff2"),
+    url("customfont.woff") format("woff");
+}
+
+/* Supports */
+@supports (display: grid) {
+  .container {
+    display: grid;
+  }
+}
+
+/* Page */
+@page {
+  size: A4;
+  margin: 2cm;
+}
+
+/* Charset */
+/* @charset "UTF-8"; */
+
+/* Import */
+@import url("other.css");
+
+/* Document
+@document url('https://example.com/')/* 
+{
+  body {
+    background-color: #f0f0f0;
+  }
+}
+ */
+/* Namespace */
+@namespace svg url(http://www.w3.org/2000/svg);
+
+/* Media */
+@media screen and (min-width: 400px) and (max-width: 700px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Media */
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 3000px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 100px) {
+  body {
+    font-size: 14px;
+  }
+}
