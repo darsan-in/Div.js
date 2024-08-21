@@ -1,50 +1,28 @@
 <div align="center">
 
-# [Title] - [short desc]
+# Div.js - CSS Splitter for Optimized Device-Specific Delivery
 
-<p id="intro">[This is a placeholder paragraph. Here some introductory text or describe the content that will eventually go in this section. This text is meant to give a sense of how the final content will look in the design.]
-</p>
+<p id="intro">**Div.js** enhances web performance by splitting CSS into device-specific files, minimizing network overhead, reducing costs, and speeding up load times.</p>
 
 ### Supported Platforms
 
-[![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)]()
 [![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)]()
 [![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)]()
 [![Node JS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)]()
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)]()
-[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)]()
 
 ---
-
-[uname-holder/reponame-holder] [npm-name-holder] [wf-holder] - for test&build
 
 <p>
 
 <span>
-  <a href="https://github.com/uname-holder/reponame-holder/commits/main">
-    <img src="https://img.shields.io/github/last-commit/uname-holder/reponame-holder?display_timestamp=committer&style=for-the-badge&label=Updated%20On" alt="GitHub last commit"/>
+  <a href="https://github.com/darsan-in/Div.js/commits/main">
+    <img src="https://img.shields.io/github/last-commit/darsan-in/Div.js?display_timestamp=committer&style=for-the-badge&label=Updated%20On" alt="GitHub last commit"/>
   </a>
 </span>
 
 <span>
   <a href="">
-    <img src="https://img.shields.io/github/commit-activity/m/uname-holder/reponame-holder?style=for-the-badge&label=Commit%20Activity" alt="GitHub commit activity"/>
-  </a>
-</span>
-
-</p>
-
-<p>
-
-<span>
-  <a href="https://github.com/uname-holder/reponame-holder/actions/workflows/wf-holder.yml">
-    <img src="https://img.shields.io/github/actions/workflow/status/uname-holder/reponame-holder/wf-holder.yml?style=for-the-badge&label=Build%20Status" alt="GitHub Actions Build Status"/>
-  </a>
-</span>
-
-<span>
-  <a href="https://github.com/uname-holder/reponame-holder/actions/workflows/wf-holder.yml">
-    <img src="https://img.shields.io/github/actions/workflow/status/uname-holder/reponame-holder/wf-holder.yml?style=for-the-badge&label=Test%20Status" alt="GitHub Actions Test Status"/>
+    <img src="https://img.shields.io/github/commit-activity/m/darsan-in/Div.js?style=for-the-badge&label=Commit%20Activity" alt="GitHub commit activity"/>
   </a>
 </span>
 
@@ -56,13 +34,13 @@
 
 <span>
   <a href="LICENSE">
-    <img src="https://img.shields.io/github/license/uname-holder/reponame-holder?style=for-the-badge&label=License" alt="GitHub License"/>
+    <img src="https://img.shields.io/github/license/darsan-in/Div.js?style=for-the-badge&label=License" alt="GitHub License"/>
   </a>
 </span>
 
 <span>
-  <a href="https://github.com/uname-holder/reponame-holder/releases">
-    <img src="https://img.shields.io/github/v/release/uname-holder/reponame-holder?include_prereleases&sort=date&display_name=tag&style=for-the-badge&label=Latest%20Version" alt="GitHub Release"/>
+  <a href="https://github.com/darsan-in/Div.js/releases">
+    <img src="https://img.shields.io/github/v/release/darsan-in/Div.js?include_prereleases&sort=date&display_name=tag&style=for-the-badge&label=Latest%20Version" alt="GitHub Release"/>
   </a>
 </span>
 
@@ -71,8 +49,8 @@
 <p>
 
 <span>
-  <a href="https://www.codefactor.io/repository/github/uname-holder/reponame-holder/issues/main">
-    <img src="https://img.shields.io/codefactor/grade/github/uname-holder/reponame-holder?style=for-the-badge&label=Code%20Quality%20Grade" alt="CodeFactor Grade"/>
+  <a href="https://www.codefactor.io/repository/github/darsan-in/Div.js/issues/main">
+    <img src="https://img.shields.io/codefactor/grade/github/darsan-in/Div.js?style=for-the-badge&label=Code%20Quality%20Grade" alt="CodeFactor Grade"/>
   </a>
 </span>
 
@@ -84,13 +62,13 @@
 
 <span>
   <a href="">
-    <img src="https://img.shields.io/npm/d18m/npm-name-holder?style=for-the-badge&label=Downloads%20On%20NPM" alt="NPM Downloads"/>
+    <img src="https://img.shields.io/npm/d18m/@iamspdarsan/div-js?style=for-the-badge&label=Downloads%20On%20NPM" alt="NPM Downloads"/>
   </a>
 </span>
 
 <span>
   <a href="">
-    <img src="https://img.shields.io/github/stars/uname-holder/reponame-holder?style=for-the-badge&label=Stars" alt="GitHub Repo stars"/>
+    <img src="https://img.shields.io/github/stars/darsan-in/Div.js?style=for-the-badge&label=Stars" alt="GitHub Repo stars"/>
   </a>
 </span>
 
@@ -119,26 +97,31 @@
 - [Friendly request to users](#-friendly-request-to-users)
 
 - [Installation - Step-by-Step Guide](#installation---step-by-step-guide-)
-- [Usage](#usage)
-- [In-Action](#in-action-)
 
 - [License](#license-%EF%B8%8F)
 - [Contributing to Our Project](#contributing-to-our-project-)
 - [Website](#website-)
 
 - [Contact Information](#contact-information)
-- [Credits](#credits-)
 
 ## Features and Benefits ✨
 
-- [f1]
-- [f2]
-- [fn]
+- **Device-Specific CSS Delivery**: Automatically serves optimized CSS files for various devices, reducing bandwidth and enhancing performance.
+- **Reduced Network Overhead**: Manages resources efficiently by loading only the necessary CSS for each device.
+- **Improved Load Times**: Speeds up page load times by delivering only essential CSS.
+- **Enhanced User Experience**: Provides optimal loading speeds and performance across different devices.
+- **Cost Efficiency**: Lowers network costs by minimizing data transfer.
+- **Scalability**: Handles increased traffic and diverse device access without compromising performance.
+- **Customizable Configuration**: Easily adjusts settings to meet project needs and device specifications.
 
 ## Use Cases ✅
 
-- [usecase 1]
-- [use case 2]
+- **Responsive Web Design**: Serve optimized CSS for mobile, tablet, and desktop devices to ensure fast load times and efficient performance.
+- **E-commerce Websites**: Improve load times for product pages by delivering only the CSS required for the user's device, enhancing the shopping experience.
+- **Content-heavy Sites**: Manage large amounts of CSS efficiently by splitting files based on device type, improving page rendering times.
+- **Progressive Web Apps (PWAs)**: Optimize performance and resource usage for PWAs by loading device-specific CSS, ensuring smooth user interactions.
+- **Single Page Applications (SPAs)**: Enhance load times and responsiveness in SPAs by only loading the CSS needed for the current device.
+- **Landing Pages**: Speed up the loading of landing pages by delivering tailored CSS for various devices, improving conversion rates.
 
 ---
 
@@ -158,30 +141,33 @@ Thank you for being part of this journey. Your support means the world to us. �
 
 ## Installation - Step-by-Step Guide 🪜
 
-[Installation instructions here]
+- **Step 1:** Install using NPM.
+  ```bash
+  npm install @iamspdarsan/div-js
+  ```
+- **Step 2:** Customize the CSS splitting settings in `div.c.json` to align with your project requirements.
 
-- **Step 1:**
-- **Step 2:**
-- **Step 3:**
-- **Step 4:**
-- **Step 5:**
-
-## Usage
-
-- [purpose heading]
-  [Demonstration here]
-
-```bash
-demo
+```json
+{
+  "screenSizes": {
+    "1X": 600,
+    "2X": 1080,
+    "3X": 1920,
+    "4X": 2560,
+    "5X": 3840
+  }
+}
 ```
 
-## In-Action 🤺
+## How It Works ✅
 
-[video] or [gif] or [image]
+- **CSS Splitting**: **Div.js** analyzes and splits CSS into files tailored to device-specific requirements.
+- **Automatic Delivery**: Delivers customized CSS files to each device, reducing unnecessary data transfer.
+- **Configuration Options**: Offers flexible settings to suit various project needs.
 
 ## License ©️
 
-This project is licensed under the [Apache License 2.0 or GNU General Public License v3.0 or MIT](LICENSE).
+This project is licensed under the [Apache License 2.0](LICENSE).
 
 ## Contributing to Our Project 🤝
 
@@ -197,17 +183,11 @@ Thank you for being part of this journey!
 
 ## Website 🌐
 
-<a id="url" href="https://darsan.in">[https://darsan.in]</a>
+<a id="url" href="https://www.npmjs.com/package/@iamspdarsan/div-js">npmjs - @iamspdarsan/div-js</a>
 
 ## Contact Information
 
 For any questions, please reach out via hello@darsan.in or [LinkedIn](https://www.linkedin.com/in/darsan-in/).
-
-## Credits 🙏🏻
-
-[credits to lib maintainers/creators]
-
----
 
 <p align="center">
 
@@ -278,10 +258,25 @@ For any questions, please reach out via hello@darsan.in or [LinkedIn](https://ww
 #### Topics
 
 <ul id="keywords">
-
-<li>A</li>
-<li>B</li>
-<li>C</li>
-<li>D</li>
-
+<li>css optimization</li>
+<li>device-specific css</li>
+<li>web performance</li>
+<li>css splitting</li>
+<li>load times</li>
+<li>network efficiency</li>
+<li>responsive design</li>
+<li>web development</li>
+<li>performance enhancement</li>
+<li>cost reduction</li>
+<li>network overhead</li>
+<li>device delivery</li>
+<li>css management</li>
+<li>website speed</li>
+<li>front-end optimization</li>
+<li>load speed</li>
+<li>scalable web</li>
+<li>data transfer</li>
+<li>performance tuning</li>
+<li>web assets</li>
+<li>seo</li>
 </ul>
