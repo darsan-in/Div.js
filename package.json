@@ -1,82 +1,83 @@
 {
-	"name": "@iamspdarsan/div-js",
-	"displayName": "Div.js",
-	"version": "0.0.1",
-	"description": "Div.js is a tool designed to enhance web performance by splitting CSS into multiple files tailored for different devices. By delivering device-specific CSS files, Div.js minimizes network overhead, reduces network costs, and achieves faster load times.",
-	"main": "./dist/div.js",
-	"types": "./dist/types/div.d.ts",
-	"exports": {
-		"import": "./dist/div.js",
-		"require": "./dist/div.js",
-		"types": "./dist/types/div.d.ts"
-	},
-	"files": [
-		"dist"
-	],
-	"preferGlobal": true,
-	"bin": {
-		"div": "./dist/bin/cli.js"
-	},
-	"repository": {
-		"url": "https://github.com/iamspdarsan/div.js"
-	},
-	"bugs": {
-		"url": "https://github.com/iamspdarsan/div.js/issues"
-	},
-	"homepage": "https://github.com/iamspdarsan/div.js",
-	"author": "DARSAN <darsan@cresteem.com>",
-	"maintainers": [
-		"DARSAN <darsan@cresteem.com>"
-	],
-	"license": "Apache-2.0",
-	"private": false,
-	"scripts": {
-		"dev": "cls && rimraf dist && tsc -p tscdev.json && ncp ./div.c.json ./dist/div.c.json",
-		"dr": "yarn dev && yarn rp",
-		"rp": "node ./dist/div.js",
-		"test": "jest",
-		"build": "cls && rimraf dist && tsc -p tsconfig.json && ncp ./div.c.json ./dist/div.c.json",
-		"clean": "cls && rimraf dist",
-		"deploy": "yarn test && yarn build && yarn publish --access public && git push"
-	},
-	"keywords": [
-		"CSS",
-		"split",
-		"device-specific",
-		"performance",
-		"optimization",
-		"web performance",
-		"load time",
-		"network overhead",
-		"bandwidth",
-		"responsive design",
-		"front-end",
-		"web development",
-		"web optimization",
-		"resource management",
-		"Div.js",
-		"CSS delivery",
-		"fast loading",
-		"scalable",
-		"efficiency",
-		"mobile optimization"
-	],
-	"dependencies": {
-		"cheerio": "1.0.0-rc.12",
-		"commander": "12.1.0",
-		"css": "3.0.0",
-		"css-mediaquery": "^0.1.2",
-		"glob": "11.0.0",
-		"lodash": "4.17.21"
-	},
-	"devDependencies": {
-		"@types/css": "latest",
-		"@types/css-mediaquery": "^0.1.4",
-		"@types/lodash": "^4.17.7",
-		"@types/node": "latest",
-		"ncp": "latest",
-		"rimraf": "latest",
-		"ts-node": "latest",
-		"typescript": "latest"
-	}
+  "name": "@iamspdarsan/div-js",
+  "displayName": "Div.js",
+  "version": "0.0.2",
+  "description": "Div.js enhances web performance by splitting CSS into device-specific files, minimizing network overhead, reducing costs, and speeding up load times.",
+  "main": "./dist/div.js",
+  "types": "./dist/types/div.d.ts",
+  "exports": {
+    "import": "./dist/div.js",
+    "require": "./dist/div.js",
+    "types": "./dist/types/div.d.ts"
+  },
+  "files": [
+    "dist"
+  ],
+  "preferGlobal": true,
+  "bin": {
+    "div": "./dist/bin/cli.js"
+  },
+  "repository": {
+    "url": "https://github.com/iamspdarsan/div.js"
+  },
+  "bugs": {
+    "url": "https://github.com/iamspdarsan/div.js/issues"
+  },
+  "homepage": "https://www.npmjs.com/package/@iamspdarsan/div-js",
+  "author": "DARSAN <darsan@cresteem.com>",
+  "maintainers": [
+    "DARSAN <darsan@cresteem.com>"
+  ],
+  "license": "Apache-2.0",
+  "private": false,
+  "scripts": {
+    "dev": "cls && rimraf dist && tsc -p tscdev.json && ncp ./div.c.json ./dist/div.c.json",
+    "dr": "yarn dev && yarn rp",
+    "rp": "node ./dist/div.js",
+    "test": "jest",
+    "build": "cls && rimraf dist && tsc -p tsconfig.json && ncp ./div.c.json ./dist/div.c.json",
+    "clean": "cls && rimraf dist",
+    "deploy": "yarn test && yarn build && yarn publish --access public && git push"
+  },
+  "keywords": [
+    "css optimization",
+    "device-specific css",
+    "web performance",
+    "css splitting",
+    "load times",
+    "network efficiency",
+    "responsive design",
+    "web development",
+    "performance enhancement",
+    "cost reduction",
+    "network overhead",
+    "device delivery",
+    "css management",
+    "website speed",
+    "front-end optimization",
+    "load speed",
+    "scalable web",
+    "data transfer",
+    "performance tuning",
+    "web assets",
+    "seo"
+  ],
+  "dependencies": {
+    "cheerio": "1.0.0-rc.12",
+    "commander": "12.1.0",
+    "css": "3.0.0",
+    "css-mediaquery": "^0.1.2",
+    "glob": "11.0.0",
+    "lodash": "4.17.21"
+  },
+  "devDependencies": {
+    "@types/css": "latest",
+    "@types/css-mediaquery": "^0.1.4",
+    "@types/lodash": "^4.17.7",
+    "@types/node": "latest",
+    "ncp": "latest",
+    "rimraf": "latest",
+    "ts-node": "latest",
+    "typescript": "latest"
+  }
 }
