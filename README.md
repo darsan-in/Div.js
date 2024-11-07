@@ -262,7 +262,6 @@ For any questions, please reach out via hello@darsan.in or [LinkedIn](https://ww
 <li>device-specific css</li>
 <li>web performance</li>
 <li>css splitting</li>
-<li>load times</li>
 <li>network efficiency</li>
 <li>responsive design</li>
 <li>web development</li>
@@ -275,7 +274,6 @@ For any questions, please reach out via hello@darsan.in or [LinkedIn](https://ww
 <li>front-end optimization</li>
 <li>load speed</li>
 <li>scalable web</li>
-<li>data transfer</li>
 <li>performance tuning</li>
 <li>web assets</li>
 <li>seo</li>
